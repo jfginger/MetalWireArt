@@ -107,7 +107,7 @@
     var buyBox = document.getElementById("lightbox-buy");
     buyBox.innerHTML = "";
     var a = document.createElement("a");
-    var url = (typeof BUY_LINKS !== "undefined") ? BUY_LINKS[it.file] : null;
+    var url = (typeof BUY_LINKS !== "undefined") ? (BUY_LINKS[it.file] || BUY_LINKS["*"]) : null;
     if (url) {
       a.href = url;
       a.target = "_blank";
