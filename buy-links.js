@@ -9,9 +9,9 @@
 //
 // Photo file names match images/gallery/ (see gallery-data.js).
 const BUY_LINKS = {
-  // Default for every piece: the $25 "Example Wire Art Piece" payment link.
-  // Add per-piece URLs (keyed by photo file name) any time to override it.
-  "*": "https://square.link/u/FdRs2kXR",
-  // Example per-piece override:
-  // "trees-blue-tree.jpg": "https://square.link/u/xxxxxxxxxxxx",
+  // "$75 Fox - Ginger Phoenix" payment link (created 2026-10-09):
+  //   https://square.link/u/FdRs2kXR
+  // The fox is not in the gallery yet, so no piece maps to it.
+  // To attach a link to a gallery piece, add: "photo-file.jpg": "<square-url>",
+  // or set "*" as the default link for every piece.
 };
