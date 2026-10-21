@@ -115,8 +115,7 @@
       a.className = "btn btn-gold";
       a.textContent = "Buy this piece";
     } else {
-      a.href = "mailto:gingerrogersgift@gmail.com?subject=" +
-        encodeURIComponent("Question about: " + shortCaption(it.alt));
+      a.href = "tel:+18647077252";
       a.className = "btn btn-outline";
       a.textContent = "Ask about this piece";
     }
